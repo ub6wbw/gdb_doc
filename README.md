@@ -2,17 +2,11 @@
 
     You may want to save the output of gdb commands to a file. There are several commands to control gdb's logging.
 
-    set logging on
+    set logging on - Enable logging.
 
-    Enable logging.
+    set logging off - Disable logging.
 
-    set logging off
-
-    Disable logging.
-
-    set logging file file
-
-    Change the name of the current logfile. The default logfile is gdb.txt.
+    set logging file file - Change the name of the current logfile. The default logfile is gdb.txt.
 
     set logging overwrite [on|off]
 
